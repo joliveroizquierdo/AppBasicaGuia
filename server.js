@@ -1,7 +1,8 @@
 const   express    		= require('express')
 const	bodyParser 		= require('body-parser')
-const	routes 			= require('./routes/rutas')
 const   cors            = require('cors')
+const	routes 			= require('./routes/rutas')
+
 
 const port = 8080;
 const app  = express()
